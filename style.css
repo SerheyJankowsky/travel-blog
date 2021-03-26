@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+@font-face {
+    font-family: jornalism;
+    src: url(/fount/journalism.ttf);
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: jornalism;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+body {
+    background: url(img/Слой\ 1.svg) no-repeat;
+    background-attachment: cover;
+    background-size: 100%;
+}
+
+.blur {
+    height: 1400px;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.conteiner {
+    width: 100%;
+    max-width: 1170px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(1px);
+}
+
+.header {
+    height: 347px;
+}
+
+.header_iner {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_iner img {
+    margin-top: 127px;
+    width: 210px;
+    height: 319px;
+}
+
+.link1 {
+    width: 116px;
+    height: 120px;
+    background: url(img/facebook.png) no-repeat;
+    background-attachment: cover;
+    background-size: 100%;
+}
+
+.link2 {
+    margin-top: 127px;
+    width: 116px;
+    height: 120px;
+    background: url(img/youtube.png) no-repeat;
+    background-attachment: cover;
+    background-size: 100%;
+}
+
+.link3 {
+    width: 116px;
+    height: 120px;
+    margin-top: 127px;
+    background: url(img/instagram.png) no-repeat;
+    background-attachment: cover;
+    background-size: 100%;
+}
+
+.link4 {
+    width: 116px;
+    height: 120px;
+    background: url(img/twitter.png) no-repeat;
+    background-attachment: cover;
+    background-size: 100%;
+}
+
+.gal {
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 100%;
+    height: 675px;
+}
+
+.gallery {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 838px;
+    height: 534px;
+}
+
+.left {
+    font-size: 14px;
+    text-align: center;
+    width: 417px;
+    height: 596px;
+}
+
+.left {
+    font-size: 14px;
+    text-align: center;
+    width: 417px;
+    height: 596px;
+}
+
+.center {
+    font-size: 14px;
+    text-align: center;
+    width: 417px;
+    height: 596px;
+}
+
+.right {
+    font-size: 14px;
+    text-align: center;
+    width: 417px;
+    height: 596px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left img {
+    width: 74px;
+    height: 79px;
+}
+
+.center img {
+    width: 74px;
+    height: 79px;
+}
+
+.right img {
+    width: 74px;
+    height: 79px;
+}
+
+.futer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.f1 {
+    width: 71px;
+    height: 72px;
+    margin-right: 67px;
+    background: url(img/facebook.png) no-repeat;
+    background-attachment: cover;
+    background-size: 100%;
+}
+
+.f2 {
+    width: 71px;
+    height: 72px;
+    margin-right: 67px;
+    background: url(img/youtube.png) no-repeat;
+    background-attachment: cover;
+    background-size: 100%;
+}
+
+.f3 {
+    width: 71px;
+    height: 72px;
+    margin-left: 67px;
+    background: url(img/instagram.png) no-repeat;
+    background-attachment: cover;
+    background-size: 100%;
+}
+
+.f4 {
+    width: 71px;
+    height: 72px;
+    margin-left: 67px;
+    background: url(img/twitter.png) no-repeat;
+    background-attachment: cover;
+    background-size: 100%;
+}
